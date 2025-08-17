@@ -1,0 +1,342 @@
+html, body {
+    font-family: Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    width: 100%;
+    background-color: #e0e0e0;
+    background-image: linear-gradient(#f8f8f8, #e0e0e0); 
+    line-height: normal;
+}
+
+
+a {
+    color: #646464;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: #713eff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#base {
+    padding: 20px;
+    color: white;
+}
+#spacer {
+    height: 15px;
+}
+#big_spacer {
+    height: 90px;
+}
+#content {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 90%;
+    min-height: -webkit-calc(100vh - 274px);
+    min-height: -moz-calc(100vh - 274px);
+    min-height: calc(100vh - 274px);
+}
+#content_small {
+    width: 40%;
+    margin: 0 auto;
+    min-height: 90%;
+    min-height: -webkit-calc(100vh - 349px);
+    min-height: -moz-calc(100vh - 349px);
+    min-height: calc(100vh - 349px);
+}
+#long_text {
+    width: 100%;
+    word-wrap: break-word;
+    display: inline-block;
+    font-size: medium;
+}
+
+#headerContainer {
+    margin: 0 auto;
+    display: inline;
+}
+#headerPolygon {
+    width: 100%;
+	height: 70px;
+    background: url("corner_BL.svg") left bottom no-repeat, url("corner_TL.svg") left top no-repeat, url("corner_BR.svg") right bottom no-repeat, url("corner_TR.svg") right top no-repeat;
+    background-size: 10px, 10px, 10px, 10px;
+    background-color: #dedede;
+    /* clip-path: polygon(0% 0%, 0% 100%, 320px 100%, 380px 0, 456px 0, 456px 0, 396px 100%, 396px 100%, 100% 100%, 100% 0%); */
+}
+#headerLeftFrame {
+    float: left;
+    width: 275px;
+    height: 100%;
+}
+#headerRightFrame {
+    width: 100%;
+    height: 100%;
+}
+#headerAGRFlogo {
+    float: left;
+    margin: 10px;
+    height: 50px;
+}
+#headerOrnamentLeft {
+    float: left;
+    margin-top: 20px;
+}
+#headerNav {
+    float: right;
+    margin-top: 22px;
+    padding-right: 10px;
+}
+#headerNav ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#headerNav li {
+    display: inline;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#headerNav span {
+    font-size: 1.6em;
+    color: #646464;
+    font-weight: bold;
+}
+#headerNavLink {
+    color: #713eff;
+}
+#headerNavLink:hover {
+    color: #713eff;
+    text-decoration: underline;
+}
+
+
+#separator {
+    background-color: #dedede; 
+    height: 4px; 
+    width: 92%;
+    margin: 0 auto;
+}
+#separator_dark {
+    background-color: #646464; 
+    height: 4px; 
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+#eulaPicker {
+    background: url("corner_BL.svg") left bottom no-repeat, url("corner_TL.svg") left top no-repeat, url("corner_BR.svg") right bottom no-repeat, url("corner_TR.svg") right top no-repeat;
+    background-size: 10px, 10px, 10px, 10px;
+    background-color: #dedede;
+    height: 70px;
+}
+#eulaNotice {
+    float: left;
+    margin-top: 6px;
+    padding-left: 12px;
+    color: #646464;
+    width: 50%;
+}
+#eulaNav {
+    float: right;
+    margin-top: 22px;
+    padding-right: 10px;
+}
+#eulaNav ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#eulaNav li {
+    display: inline;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#eulaNav span {
+    font-size: 1.6em;
+    color: #646464;
+    font-weight: bold;
+}
+
+
+#block_textContent {
+    background: url("corner_BL.svg") left bottom no-repeat, url("corner_TL.svg") left top no-repeat, url("corner_BR.svg") right bottom no-repeat, url("corner_TR.svg") right top no-repeat;
+    background-size: 10px, 10px, 10px, 10px;
+    background-color: #f6f6f6;
+}
+#block_textText {
+    padding: 32px;
+    margin: 0;
+    color: #646464;
+    font-weight: bold;
+    text-align: left;
+}
+#block_textTitle {
+    margin: 0px;
+    background-color: rgba(224, 0, 236, 0);
+    color: #646464;
+    font-size: 14px;
+    height: 24px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+#block_textTitle h3 {
+    text-align: left;
+}
+
+#setupGuideContent {
+    padding: 32px;
+    margin: 0;
+    color: #646464;
+    font-weight: bold;
+    text-align: left;
+}
+#setupGuideContent h2, h3, h4, small {
+    margin: 1px;
+}
+#setupGuideHighlight {
+    background-color: #dadada;
+    border-color: #aaaaaa;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    padding-top: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#projectInfoContent {
+    padding: 32px;
+    margin: 0;
+    color: #646464;
+    font-weight: bold;
+    text-align: left;
+}
+#projectInfoContent h2, h3, h4, small {
+    margin: 1px;
+}
+
+#block_imageContent {
+    background: url("corner_BL.svg") left bottom no-repeat, url("corner_TL.svg") left top no-repeat, url("corner_BR.svg") right bottom no-repeat, url("corner_TR.svg") right top no-repeat;
+    background-size: 10px, 10px, 10px, 10px;
+    background-color: #f6f6f6;
+}
+#block_imageTextSide {
+    width: 60%;
+}
+#block_imageImageSide {
+    width: 40%;
+}
+#block_imageImageSide img {
+    padding: 20px;
+    width: 90%;
+}
+#block_imageText {
+    padding: 32px;
+    margin: 0;
+    color: #646464;
+    font-weight: bold;
+    text-align: left;
+}
+#block_imageTitle {
+    margin: 0px;
+    background-color: rgba(224, 0, 236, 0);
+    color: #646464;
+    font-size: 14px;
+    height: 24px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+#block_imageTitle h3 {
+    text-align: left;
+}
+/* hide the side image on block_image on small screens */
+@media only screen and (max-width: 1000px) {
+    #block_imageImageSide {
+        display: none;
+    }
+}
+
+#listingTable {
+    width: 100%;
+}
+#listingPlayersOnline {
+    width: 40%;
+}
+#players {
+    color: #646464;
+}
+#playersTotalCount h2 {
+    margin: 0;
+}
+#playersListing {
+    padding-left: 5px;
+}
+#lobbies {
+    color: #646464;
+}
+#lobbiesTotalCount h2 {
+    margin: 0;
+}
+#lobbiesListing {
+    padding-left: 5px;
+}
+#lobbiesEntryTitle {
+    text-decoration: underline;
+}
+#lobbiesEntryExtraInfo h5 {
+    margin: 0;
+}
+#lobbiesEntryPlayerList {
+    padding-left: 5px;
+}
+#stats {
+    color: #646464;
+}
+#statsTitle h2 {
+    margin: 0;
+}
+#statsListing {
+    padding-left: 5px;
+}
+
+#footerContainer {
+    padding-top: 50px;
+    margin: 0 auto;
+}
+#footerTopSide {
+    height: 50px;
+}
+#footerTopLeftOrnament {
+    margin-top: 12px;
+    float: left;
+}
+#footerTopRightOrnament {
+    float: right;
+}
+#footerBottomSide {
+    background-color: #f9f9f9;
+    padding-bottom: 10px;
+}
+#footerLegalContainer {
+    width: 55%;
+    margin: 0 auto;
+}
+#footerCopyrightOrnament {
+    padding-top: 8px;
+    float: left;
+}
+#footerLegal {
+    margin: 2px;
+    margin-bottom: 0px;
+    color: #dedede;
+    width: 100%;
+}
